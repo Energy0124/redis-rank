@@ -1,6 +1,6 @@
 {
-  "name": "redis-rank",
-  "version": "2.0.0",
+  "name": "@energy0124/redis-rank",
+  "version": "2.1.0-beta.2",
   "description": "Manage real-time leaderboards using Redis",
   "keywords": [
     "redis",
@@ -13,9 +13,9 @@
     "highscore",
     "promises"
   ],
-  "repository": "https://github.com/mlomb/redis-rank",
-  "homepage": "https://github.com/mlomb/redis-rank",
-  "bugs": "https://github.com/mlomb/redis-rank/issues",
+  "repository": "https://github.com/Energy0124/redis-rank.git",
+  "homepage": "https://github.com/Energy0124/redis-rank",
+  "bugs": "https://github.com/Energy0124/redis-rank/issues",
   "author": "Martin Emiliano Lombardo <to@mlomb.me>",
   "license": "MIT",
   "main": "./dist/index.js",
@@ -50,5 +50,8 @@
     "transform": {
       "^.+\\.ts$": "ts-jest"
     }
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   }
 }
