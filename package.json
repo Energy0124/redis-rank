@@ -1,6 +1,6 @@
 {
   "name": "redis-rank",
-  "version": "2.1.0-beta.4",
+  "version": "2.1.0-beta.5",
   "description": "Manage real-time leaderboards using Redis",
   "keywords": [
     "redis",
@@ -28,7 +28,7 @@
     "publish": "npm run test && npm run build && npm publish",
     "test": "jest --coverage --verbose --runInBand",
     "dev": "nodemon --exec \"npm run test\" --watch lib --watch tests -e ts,tsx",
-    "tsc": "tsc",
+    "tsc": "node ./node_modules/typescript/bin/tsc",
     "prepare": "npm run build"
   },
   "devDependencies": {
